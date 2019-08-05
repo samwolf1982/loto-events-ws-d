@@ -1,0 +1,21 @@
+{
+  "name": "look-events-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "lint": "eslint ./js/*",
+    "start": "pm2 start index.js",
+    "stop": "pm2 stop index.js"
+  },
+  "keywords": [],
+  "author": "mSamwolf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "express-ws": "*",
+    "eslint": "*",
+    "mocha": "*"
+  }
+}
